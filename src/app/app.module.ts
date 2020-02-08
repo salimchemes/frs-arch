@@ -10,6 +10,7 @@ import { HomeComponent } from "./pages/home/home.component";
 import { ProjectComponent } from "./pages/project/project.component";
 import { AboutComponent } from "./pages/about/about.component";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
     FooterComponent,
     HomeComponent,
     ProjectComponent,
-    AboutComponent
+    AboutComponent,
+    PortfolioComponent
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],

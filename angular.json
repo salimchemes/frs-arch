@@ -30,6 +30,8 @@
             ],
             "scripts": [
               "src/lib/jquery.min.js",
+              "src/lib/bootstrap.min.js",
+              "src/lib/jquery.waypoints.min.js",
               "src/lib/jquery.easing.1.3.js",
               "src/lib/jquery.flexslider-min.js",
               "src/lib/main.template.js",
@@ -101,6 +103,8 @@
             ],
             "scripts": [
               "src/lib/jquery.min.js",
+              "src/lib/bootstrap.min.js",
+              "src/lib/jquery.waypoints.min.js",
               "src/lib/jquery.easing.1.3.js",
               "src/lib/jquery.flexslider-min.js",
               "src/lib/main.template.js",
