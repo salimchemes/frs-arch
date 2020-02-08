@@ -9,8 +9,7 @@ import { FooterComponent } from "./components/footer/footer.component";
 import { HomeComponent } from "./pages/home/home.component";
 import { ProjectComponent } from "./pages/project/project.component";
 import { AboutComponent } from "./pages/about/about.component";
-import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
-import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { PortfolioComponent } from "./components/portfolio/portfolio.component";
 
 @NgModule({
   declarations: [
@@ -23,7 +22,7 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
     AboutComponent,
     PortfolioComponent
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
